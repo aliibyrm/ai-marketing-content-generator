@@ -1,0 +1,194 @@
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Streamlit
+.streamlit/
+
+# Data Files (if containing sensitive information)
+data/history.json
+data/user_settings.json
+data/exports/*.json
+data/exports/*.csv
+data/exports/*.txt
+data/exports/*.pdf
+
+# API Keys and Secrets
+api_keys.txt
+secrets.txt
+credentials.json
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Node.js (if adding frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Redis
+dump.rdb
+
+# Local configuration
+config.local.py
+settings.local.py
+
+# Deployment
+.deployment
+.azure/
+
+# Heroku
+.heroku/
+Procfile
+
+# Google Cloud
+.gcloud/
+gcloud_key.json
+
+# AWS
+.aws/
+aws_credentials
+
+# Monitoring
+.sentry-release
+newrelic.ini
+
+# Custom
+custom_prompts/
+user_data/
+analytics/
+exports/
+backups/
+
+# Large files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Model files (if any)
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Cache directories
+.cache/
+__temp__/
+
+# Generated documentation
+docs/_build/
+site/
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
